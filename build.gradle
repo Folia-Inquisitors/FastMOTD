@@ -38,6 +38,7 @@ repositories {
 }
 
 dependencies {
+    implementation(fileTree("libs").matching { include("*.jar") })
     implementation("net.elytrium.commons:kyori:1.3.0")
     implementation("net.elytrium.commons:velocity:1.3.0")
     implementation("net.elytrium.commons:utils:1.3.0")

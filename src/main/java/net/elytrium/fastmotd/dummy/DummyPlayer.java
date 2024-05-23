@@ -256,4 +256,5 @@ public class DummyPlayer implements Player {
   public @NotNull Identity identity() {
     throw new IllegalStateException();
   }
+
 }
