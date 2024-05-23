@@ -54,6 +54,7 @@ dependencies {
     compileOnly('io.netty:netty-handler:4.1.86.Final')
 
     implementation("org.bstats:bstats-velocity:3.0.0")
+compileOnly(files("libs/FakePlayerAPI-1.0-SNAPSHOT-all.jar"))
 }
 
 shadowJar {
